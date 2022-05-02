@@ -26,7 +26,7 @@ controls.dampingFactor = 0.05;
 
 ////animation loop
 function animate() {
-  requestAnimationFrame(aniamte);
+  requestAnimationFrame(animate);
   renderer.render(scene, camera);
 }
 animate();
